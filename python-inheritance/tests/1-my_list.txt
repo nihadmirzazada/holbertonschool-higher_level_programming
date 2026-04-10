@@ -1,0 +1,19 @@
+===========================
+How to use 1-my_list.py
+===========================
+
+Import:
+    >>> MyList = __import__('1-my_list').MyList
+
+Normal case:
+    >>> my_list = MyList()
+    >>> my_list.append(3)
+    >>> my_list.append(1)
+    >>> my_list.append(2)
+    >>> my_list.print_sorted()
+    [1, 2, 3]
+
+Empty list:
+    >>> my_list2 = MyList()
+    >>> my_list2.print_sorted()
+    []
